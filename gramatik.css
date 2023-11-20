@@ -1,0 +1,105 @@
+body{
+    display: grid;
+    
+    
+    height: auto;
+}
+#gramatica{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.gramaticaa{
+    font-size: 5em;
+    display: grid;
+    
+
+}
+.gramaticaa > span{
+    /* font-size: 3em;# */
+    color: red;
+    border: black solid;
+}
+
+p{
+    display: inline;
+    color: red;
+}
+
+
+.gramaticaa {
+    /* border: black solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  }
+  
+  .gramaticca > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: black solid;
+  }
+
+.Denkt{
+    display: flex;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 5em;
+    padding: 1em;
+    color: orange;
+}
+
+.falar{
+    display: flex;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 5em;
+    padding: 1em;
+    color: red;
+}
+
+
+
+h1{
+    display: flex;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 8em;
+    justify-content: center;
+    margin: 0;
+    color: green;
+}
+
+
+
+
+.gallery{
+    border: black 2px solid ;
+    /* border:linear-gradient(red, yellow) solid; */
+    border-radius: 30px;
+    margin: 10px 50px;
+    overflow: auto ;
+    height: 30%;
+}
+
+
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 47%;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    clear: both;
+    
+}

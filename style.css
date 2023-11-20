@@ -194,6 +194,10 @@ body{
 .video{
     display: flex;
     justify-content: center;
+    /* border: 1px red solid; */
+    /* border-radius: 30px; */
+    /* width: 400px; */
+    /* height: 300px; */
 }
 
 
